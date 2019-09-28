@@ -640,7 +640,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -671,7 +671,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -702,7 +702,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -733,7 +733,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -764,7 +764,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -795,7 +795,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -826,7 +826,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -857,7 +857,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -888,7 +888,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -919,7 +919,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -950,7 +950,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -981,7 +981,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1012,7 +1012,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1043,7 +1043,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1074,7 +1074,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1105,7 +1105,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1136,7 +1136,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1167,7 +1167,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1198,7 +1198,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1229,7 +1229,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1260,7 +1260,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1291,7 +1291,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_ui" value="true" />
         <boolean name="vowifi_call_quality" value="true" />
         <boolean name="config_retry_sms_over_ims" value="true"/>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="carrier_supports_multianchor_conference" value="true"/>
     </carrier_config>
 
@@ -1390,7 +1390,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="dun" />
             <item value="supl" />
         </string-array>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
     </carrier_config>
 
     <carrier_config mcc="455" mnc="07">
@@ -1411,7 +1411,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="dun" />
             <item value="supl" />
         </string-array>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="00">
@@ -1458,7 +1458,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <string name="carrier_name_string">China Mobile</string>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="support_video_conference_call_bool" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1488,7 +1488,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="config_update_volte_icon" value="true"/>
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
@@ -1545,7 +1545,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <string name="carrier_name_string">China Mobile</string>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="support_video_conference_call_bool" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1583,7 +1583,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="config_auto_retry_cfu_bool" value="true" />
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="config_common_callsettings_support_bool" value="true" />
@@ -1617,7 +1617,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
@@ -1640,7 +1640,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="config_update_volte_icon" value="true"/>
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
@@ -1696,7 +1696,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="support_video_conference_call_bool" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1749,7 +1749,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="support_video_conference_call_bool" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1774,7 +1774,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <string name="carrier_name_string">China Unicom</string>
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="config_update_volte_icon" value="true"/>
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
@@ -1823,7 +1823,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
         <boolean name="config_auto_retry_cfu_bool" value="true" />
-        <boolean name="config_update_service_status" value="true"/>
+        <boolean name="config_update_service_status" value="false"/>
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="config_common_callsettings_support_bool" value="true" />
