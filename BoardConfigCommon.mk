@@ -32,6 +32,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 
 # Kernel
+BOARD_BOOT_HEADER_VERSION := 1
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
                         androidboot.console=ttyMSM0 \
                         earlycon=msm_serial_dm,0xc170000 \
@@ -46,6 +47,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
                         loop.max_part=7 \
                         androidboot.init_fatal_reboot_target=recovery \
                         kpti=off
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
