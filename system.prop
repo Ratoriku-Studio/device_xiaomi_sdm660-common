@@ -24,3 +24,6 @@ telephony.lteOnCdmaDevice=1
 
 # Shutdown
 ro.build.shutdown_timeout=2
+
+# WiFi Display
+media.wfd.max_resolution=8
