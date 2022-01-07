@@ -403,7 +403,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.pixel
+    android.hardware.thermal@2.0-service.pixel \
+    thermal_symlinks
 
 # Wifi
 PRODUCT_PACKAGES += \
