@@ -138,10 +138,7 @@ on boot
 
     # Touchpanel
     chown system system /sys/touchpanel/double_tap
-
-    chmod 0664 /sys/touchpanel/capacitive_keys
     chmod 0664 /sys/touchpanel/double_tap
-    chmod 0664 /sys/touchpanel/reversed_keys
 
 #Peripheral manager
 service vendor.per_mgr /system/vendor/bin/pm-service
