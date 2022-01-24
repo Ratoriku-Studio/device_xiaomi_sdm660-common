@@ -8,6 +8,7 @@ hal_client_domain(hal_thermal_default, hal_power);
 
 allow hal_thermal_default boot_status_prop:file read;
 
+allow hal_thermal_default self:netlink_generic_socket create_socket_perms_no_ioctl;
 allow hal_thermal_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
 
 # read thermal_config
