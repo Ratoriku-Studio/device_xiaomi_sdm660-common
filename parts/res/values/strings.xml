@@ -23,7 +23,4 @@
 
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
-
-    <string name="doze_brightness_title">Always on brightness</string>
-    <string name="doze_brightness_summary">%s mode is enabled</string>
 </resources>
