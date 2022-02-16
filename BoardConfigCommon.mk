@@ -37,6 +37,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
                         androidboot.console=ttyMSM0 \
                         earlycon=msm_serial_dm,0xc170000 \
                         androidboot.hardware=qcom \
+                        androidboot.boot_devices=soc/c0c4000.sdhci \
                         user_debug=31 \
                         msm_rtb.filter=0x37 \
                         ehci-hcd.park=3 \
