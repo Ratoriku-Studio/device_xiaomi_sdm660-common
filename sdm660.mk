@@ -20,6 +20,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
+# Charger
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
