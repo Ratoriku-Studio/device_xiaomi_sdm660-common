@@ -1,1 +1,3 @@
 dontaudit init { bt_firmware_file }:filesystem getattr;
+
+allow vendor_init proc_dirty:file write;
