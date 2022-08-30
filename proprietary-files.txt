@@ -631,3 +631,6 @@ vendor/lib64/libhdcpsrm.so|1cb91cbaad3c0a44df4f244f8fb462a9f0ebb0b2
 vendor/lib64/libmm-hdcpmgr.so|eb7db96305875b80971fec7b93ea800b6c9a1a77
 vendor/lib64/librmp.so|6392e70196f5a6da2d49a1aaec60f06ca378f1c4
 vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
+
+# Wifi - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
+vendor/bin/cnss-daemon|3137d9a479fe6e363896fe77248bcb488fae2c2e
