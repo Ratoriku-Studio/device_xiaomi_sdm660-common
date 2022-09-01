@@ -195,6 +195,11 @@ arm64.memtag.process.system_server=off
 # Time
 persist.vendor.delta_time.enable=true
 
+# USB
+vendor.usb.rmnet.func.name=rmnet_bam
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=rndis_bam
+
 # Watchdog
 ro.hw_timeout_multiplier=3
 
