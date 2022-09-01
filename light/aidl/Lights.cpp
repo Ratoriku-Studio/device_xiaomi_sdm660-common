@@ -25,7 +25,7 @@ namespace {
 
 #define LEDS(x) PPCAT(/sys/class/leds, x)
 #define LCD_ATTR(x) STRINGIFY(PPCAT(LEDS(lcd-backlight), x))
-#define WHITE_ATTR(x) STRINGIFY(PPCAT(LEDS(white), x))
+#define WHITE_ATTR(x) STRINGIFY(PPCAT(LEDS(red), x))
 #define BUTTON_ATTR(x) STRINGIFY(PPCAT(LEDS(button-backlight), x))
 #define BUTTON1_ATTR(x) STRINGIFY(PPCAT(LEDS(button-backlight1), x))
 
