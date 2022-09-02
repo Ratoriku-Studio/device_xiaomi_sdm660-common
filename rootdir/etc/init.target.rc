@@ -63,6 +63,10 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+    # Property used by pointing to thermal-engine config file
+    setprop vendor.thermal.vr_mode -normal
+    setprop vendor.thermal.hw_mode -prod
+
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
@@ -232,6 +236,18 @@ service vendor.qseecomd /vendor/bin/qseecomd
 #    class core
 #    oneshot
 #
+
+# reset thermal-engine when changed profile
+on property:vendor.thermal.vr_mode=*
+    restart vendor.thermal-engine
+
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-${ro.hardware}${vendor.thermal.vr_mode}${vendor.thermal.hw_mode}.conf
+   class main
+   user root
+   group root system
+   socket thermal-send-client stream 0666 system system
+   socket thermal-recv-client stream 0660 system system
+   socket thermal-recv-passive-client stream 0666 system system
 
 #service adsprpcd_root /vendor/bin/adsprpcd
 #   class main
