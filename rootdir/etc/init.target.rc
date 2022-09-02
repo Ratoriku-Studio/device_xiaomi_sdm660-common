@@ -244,10 +244,7 @@ on property:vendor.thermal.vr_mode=*
 service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-${ro.hardware}${vendor.thermal.vr_mode}${vendor.thermal.hw_mode}.conf
    class main
    user root
-   group root system
-   socket thermal-send-client stream 0666 system system
-   socket thermal-recv-client stream 0660 system system
-   socket thermal-recv-passive-client stream 0666 system system
+   group root
 
 #service adsprpcd_root /vendor/bin/adsprpcd
 #   class main
