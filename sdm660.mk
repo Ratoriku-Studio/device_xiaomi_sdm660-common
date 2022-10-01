@@ -133,7 +133,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V2
+    GCamGOPrebuilt-V3
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
