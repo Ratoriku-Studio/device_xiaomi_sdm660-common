@@ -141,6 +141,9 @@ on boot
     chown system system /persist/speccfg/submask
     chown system system /persist/speccfg/partition
 
+    # default country code
+    setprop ro.boot.wificountrycode 00
+
 #Create folder dump yuv images while debugging
     mkdir /data/vendor/camera 0770 camera camera
 
