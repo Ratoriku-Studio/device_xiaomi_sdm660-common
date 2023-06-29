@@ -19,8 +19,5 @@ bluetooth.profile.sap.server.enabled=true
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
-# IORap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
 # Radio
 ro.telephony.block_binder_thread_on_incoming_calls=false
