@@ -17,9 +17,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
-# Flatten APEXs for performance
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 # Charger
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
