@@ -102,7 +102,7 @@ vidc.enc.dcvs.extra-buff-count=2
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
-debug.renderengine.backend=threaded
+debug.renderengine.backend=skiaglthreaded
 debug.sf.auto_latch_unsignaled=true
 debug.sf.early.app.duration=16500000
 debug.sf.early.sf.duration=21000000
