@@ -128,6 +128,12 @@ vendor.gralloc.disable_ahardware_buffer=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.options=::v2
+
 # DPM
 persist.vendor.dpm.loglevel=0
 persist.vendor.dpm.nsrm.bkg.evt=3955
@@ -148,9 +154,6 @@ persist.sys.fuse.passthrough.enable=true
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
-
-# HEH filename encryption is being dropped
-ro.crypto.volume.filenames_mode=aes-256-cts
 
 # IMS
 persist.dbg.volte_avail_ovr=1
