@@ -111,6 +111,10 @@ vendor/lib64/soundfx/libqcreverb.so|0368be7d10307259f58451be4b0aa9767f6bd52f
 vendor/lib64/soundfx/libqcvirt.so|64f5f836d45b1adf81744ab86e3268164e13e208
 vendor/lib64/soundfx/libshoebox.so|9dd4965854d79da85b18893cb45504ac3330527a
 
+# Audio - from cheetah-user 13 TQ3A.230705.001 10216780 release-keys
+vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+vendor/lib64/soundfx/libspatialaudio.so|f5a21e781fac818dcc55d3aa792e2a1902619bdd
+
 # Bluetooth - from hon660
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b1b6de9318b86ae7249af52c8522ec84ec575692
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc

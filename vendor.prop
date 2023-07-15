@@ -75,6 +75,8 @@ vendor.audio.feature.wsa.enable=false
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=true
 
+ro.audio.spatializer_enabled=true
+persist.vendor.audio.spatializer.speaker_enabled=true
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 vendor.audio.adm.buffering.ms=6
