@@ -20,6 +20,9 @@ persist.vendor.camera.                  u:object_r:camera_prop:s0
 vendor.camera.eis.gyro_name             u:object_r:camera_prop:s0
 vidc.enc.dcvs.extra-buff-count          u:object_r:vendor_default_prop:s0
 
+# Cnd
+persist.vendor.iwlan.logging.logcat     u:object_r:vendor_cnd_vendor_prop:s0
+
 # Fastbootd
 ro.fastbootd.available                  u:object_r:exported_default_prop:s0
 

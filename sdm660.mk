@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
@@ -432,7 +436,9 @@ SOONG_CONFIG_thermal_hal_feature_pid ?= apply_1_0
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
+    android.hardware.wifi.hostapd@1.3.vendor \
     hostapd \
+    hostapd_cli \
     libwifi-hal-qcom \
     libwpa_client \
     WifiOverlay \
