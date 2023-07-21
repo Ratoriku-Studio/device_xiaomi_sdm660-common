@@ -111,29 +111,38 @@ vendor/lib64/soundfx/libqcreverb.so|0368be7d10307259f58451be4b0aa9767f6bd52f
 vendor/lib64/soundfx/libqcvirt.so|64f5f836d45b1adf81744ab86e3268164e13e208
 vendor/lib64/soundfx/libshoebox.so|9dd4965854d79da85b18893cb45504ac3330527a
 
-# Bluetooth - from ginkgo V12.5.7.0.RCOEUXM
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|c2ea0d91006c5a12efa07d42cae47b3008124571
+# Bluetooth - from hon660
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b1b6de9318b86ae7249af52c8522ec84ec575692
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ea763a5951a646dc018489dfb368cc72829fff44
-vendor/lib64/libbt-hidlclient.so|da867a59f05832dcd5c116fc69e692b6a4d8c77b
-vendor/lib64/libbtnv.so|086a227f793822ef3eed15aea21a207c68feb7a9
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|ee02e7e7a7c474822f575fc76eb3fe6205ffde53
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|bcc5e8ec073890acf95e4acd4d60dff464134d97
+vendor/lib64/libbtnv.so|0625957dd33115663ba3a4324e9c7fd57faab9b5
+vendor/lib64/libsoc_helper.so|baf819f79f2ffc4f540e0ec3cc30b5c56e801b18
 
-# Bluetooth (aptX) - from ginkgo V12.5.7.0.RCOEUXM
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
-
-# Bluetooth (aptX) - from sunfish-SQ3A.220705.003
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-
-# Bluetooth (Configstore) - from ginkgo V12.5.7.0.RCOEUXM
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|fc6265cb719afac0ff0bf6722d7f4cb4b408fd7b
-
-# Bluetooth (SAR) - from ginkgo V12.5.7.0.RCOEUXM
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|624ac893ea428a29df50336f6fe08879b1bb5c21
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|64de735684377aba4a33a3bb0bee25f7999bafcd
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|32c763b353882c9a711a641ff9eb99fe1b0e164d
+# Bluetooth (A2DP) - from hon660
+vendor/lib/hw/audio.bluetooth_qti.default.so|7a8ff638ef7ab081f98bc684bbad63420d257871
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|dd862240cef63661016b05d55be39d5e7678237d
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|68119c857b2f3528ec644aee1355f916fe8450ac
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|0162f32a3d17d3a5759449c082c8975d05fe2890
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|6c2d2af70fdaed686bc0d7ee5b32302f1e62a9b2
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|f12af4dcc769c40be874cff88f36c12d3577e35e
+vendor/lib/btaudio_offload_if.so|a2c9b1ef71ea799d675a551cd2fcf9de519e8789
+vendor/lib/libbluetooth_audio_session_qti.so|68d76f5b446ef28bb7f35f43b7ee7095850ccec1
+vendor/lib/libbluetooth_audio_session_qti_2_1.so|6afa397a864df234f4e3399da4b0c2c10e117c82
+vendor/lib/libbt-hidlclient.so|d4551a556e48e62f43ff4276fcfb55fa4994a93e
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|c5bf63a776346b89fdd6e40578ab81016b0af821
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|fb9b3e4caec3c8a06351858dd3114d07925e372d
+vendor/lib64/hw/audio.bluetooth_qti.default.so|c1dae4cd01a699c8bbda0a7dc39b698a12abc841
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|bf010e27556bd9c6985b36bc4e9ec1512a1a530a
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|b5914ddd94f753c1fc551d61f3c9f42fd36345f3
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|39804e925e2119121af6ed8239fe828577c386a6
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|60024de474c1d4bbc03a517b68a8e001c1136370
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|1c85232f8e166072ca325d4a2b4e843be8754200
+vendor/lib64/btaudio_offload_if.so|fadd7f33677424ddd9c0466ee65503ed03695448
+vendor/lib64/libbluetooth_audio_session_qti.so|8f8c58f46a0ce479e47b5342de6358e831c076a3
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|5d1e4afc3393081a339f34f704e5de6b38f4bf1f
+vendor/lib64/libbt-hidlclient.so|7d6db674026e0beb4249612e5085aafb429ca94a
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|594e9bcbc5ebe3d7cee650b07d5662201284fb34
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|a9aba53b8a70521bb141e56a29d209c550f0e336
 
 # CDSP - from hon660
 system_ext/lib/libcdsprpc_system.so|75c30470b4acacd3b5c2c4fc97d9254555c0b5d2
