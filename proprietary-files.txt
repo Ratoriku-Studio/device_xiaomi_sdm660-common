@@ -162,8 +162,8 @@ vendor/lib64/libcdsprpc.so|4e454d6835cd732bf2006e206da3befbc7beeee3
 vendor/lib64/libfastrpc_utf_stub.so|8c15be13807067917308d4df4a8c80dec681678f
 vendor/lib64/libsysmon_cdsp_skel.so|eac521e4f8fe950bd9bb4fa424a25c9688173d50
 
-# Charger - from jasmine
-vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
+# Charger - from hon660
+vendor/bin/hvdcp_opti|f796b2851846d4f24424a4a1c4fd97bada885bcf
 
 # CNE - from LA.QSSI.13.0.r1-10000.02-qssi.0
 system_ext/app/DynamicDDSService/DynamicDDSService.apk|b45038bf15ab60686f7bae9f97cac30921347a8d
