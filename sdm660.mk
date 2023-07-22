@@ -136,8 +136,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Camera
+ifeq ($(ARROW_GAPPS),true)
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3_8
+else
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V2
+endif
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
