@@ -17,6 +17,9 @@ ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
 
+# Multi-Gen LRU
+persist.device_config.mglru_native.lru_gen_config=core
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
