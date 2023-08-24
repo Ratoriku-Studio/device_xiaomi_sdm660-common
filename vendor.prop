@@ -113,6 +113,7 @@ ro.vendor.bluetooth.wipower=false
 
 # Camera
 persist.vendor.camera.preview.ubwc=0
+persist.vendor.camera.perflock.enable=0
 vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
